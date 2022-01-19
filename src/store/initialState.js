@@ -1,7 +1,7 @@
 const initialState = {
     app: {
         errors: [],
-        isLoading: false,
+        isLoading: true,
     }
 };
 
