@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux';
 
-import { app } from './app';
+import { currencies } from './currencies';
 
 const rootReducer = combineReducers({
-    app
+    currencies
 });
 
 export default rootReducer;

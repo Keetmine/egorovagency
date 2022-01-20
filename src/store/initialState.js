@@ -1,8 +1,10 @@
 const initialState = {
-    app: {
-        errors: [],
-        isLoading: true,
-    }
+    currencies: [
+
+    ],
+    selected_currencies: [
+
+    ]
 };
 
 export default initialState;
