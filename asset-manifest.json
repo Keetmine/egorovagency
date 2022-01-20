@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/egorovagency/static/css/main.e10d358e.css",
+    "main.js": "/egorovagency/static/js/main.8575012e.js",
+    "index.html": "/egorovagency/index.html",
+    "main.e10d358e.css.map": "/egorovagency/static/css/main.e10d358e.css.map",
+    "main.8575012e.js.map": "/egorovagency/static/js/main.8575012e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e10d358e.css",
+    "static/js/main.8575012e.js"
+  ]
+}
