@@ -7,26 +7,22 @@ export const currenciesService = {
 
 function getAllCurrencies() {
     const requestOptions = {
-        method: 'GET',
-        // mode: 'no-cors',
-        headers: {
-            'Content-Type': 'application/json',
-        },
+        method: 'GET'
     };
-
     return fetch('https://www.nbrb.by/api/exrates/currencies', requestOptions)
-        // .then(handleResponse)
-        .then(currencies => { return currencies.json() })
-        .then(currencies => { console.log(currencies)});
+        .then(handleResponse)
+        .then(currencies => { return currencies })
+
 }
 
-function getCurrency(cur_id) {
+function getCurrency(item) {
     const requestOptions = {
         method: 'GET',
-        headers: { 'Content-Type': 'application/json' },
+        // mode: 'no-cors'
     };
 
-    return fetch('https://www.nbrb.by/api/exrates/currencies' + cur_id, requestOptions)
+    return fetch('https://www.nbrb.by/api/exrates/rates/' + item.value, requestOptions)
         .then(handleResponse)
-        .then(currencies => { return currencies });
+        .then(currency => { return currency });
+
 }

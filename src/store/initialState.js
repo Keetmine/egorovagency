@@ -1,10 +1,11 @@
 const initialState = {
-    currencies: [
-
-    ],
-    selected_currencies: [
-
-    ]
+    currencies: {
+        data: []
+    },
+    list: {
+        data: [
+        ]
+    }
 };
 
 export default initialState;

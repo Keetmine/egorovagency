@@ -5,8 +5,7 @@ export function currencies(state = initialState.currencies, action) {
     switch (type) {
         case 'CURRENCIES_GETALL_REQUEST':
             return {
-                ...state,
-                error: null
+                ...state
             };
         case 'CURRENCIES_GETALL_SUCCESS':
             return {
@@ -15,8 +14,7 @@ export function currencies(state = initialState.currencies, action) {
             };
         case 'CURRENCIES_GETALL_FAILED':
             return {
-                ...state,
-                error: payload
+                ...state
             };
         default:
             return state
