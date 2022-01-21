@@ -1,7 +1,6 @@
 {
   "name": "egorovagency",
   "version": "0.1.0",
-  "homepage": "https://keetmine.github.io/egorovagency",
   "private": true,
   "scripts": {
     "start": "node scripts/start.js",
