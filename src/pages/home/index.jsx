@@ -80,9 +80,9 @@ class Home extends Component {
                 <Row justify={'space-between'} className={'m-t-10 m-b-30px'}>
                     <h1>Курсы валют и цены</h1>
                     <Row>
-                        <Button onClick={() => this.updateList()} className={'m-r-10px'} title='Reload' rounded border large>
-                            <img src={reloadSvg} alt='Reload' />
-                        </Button>
+                        {/*<Button onClick={() => this.updateList()} className={'m-r-10px'} title='Reload' rounded border large>*/}
+                        {/*    <img src={reloadSvg} alt='Reload' />*/}
+                        {/*</Button>*/}
                         <Button onClick={() => this.props.history.push('/settings')} rounded large>Настройки</Button>
                     </Row>
                 </Row>
