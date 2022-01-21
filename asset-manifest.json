@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/egorovagency/static/css/main.e10d358e.css",
-    "main.js": "/egorovagency/static/js/main.8575012e.js",
+    "main.js": "/egorovagency/static/js/main.516e9c7e.js",
+    "static/media/reload.svg": "/egorovagency/static/media/reload.175ce59a27f36aaf711733bd5fcd9640.svg",
+    "static/media/delete.svg": "/egorovagency/static/media/delete.4375edaee7aabba6b5730669219dea12.svg",
     "index.html": "/egorovagency/index.html",
+    "static/media/copy.svg": "/egorovagency/static/media/copy.01101ad71ecb98502a377a1a91708292.svg",
     "main.e10d358e.css.map": "/egorovagency/static/css/main.e10d358e.css.map",
-    "main.8575012e.js.map": "/egorovagency/static/js/main.8575012e.js.map"
+    "main.516e9c7e.js.map": "/egorovagency/static/js/main.516e9c7e.js.map"
   },
   "entrypoints": [
     "static/css/main.e10d358e.css",
-    "static/js/main.8575012e.js"
+    "static/js/main.516e9c7e.js"
   ]
 }
